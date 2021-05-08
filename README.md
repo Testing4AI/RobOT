@@ -1,5 +1,5 @@
 # RobOT: Robustness-Oriented Testing for DL models
-(Accept to ICSE2021)
+See the ICSE2021 paper for more details. 
 
 Details would be included soon.
 
