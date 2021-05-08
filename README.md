@@ -1,4 +1,4 @@
-# Code for RobOT 
+# RobOT: Robustness-Oriented Testing for DL models
 (Accept to ICSE2021)
 
-More details would be included soon.
+Details would be included soon.
