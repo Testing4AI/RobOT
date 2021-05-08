@@ -3,7 +3,7 @@
 
 Details would be included soon.
 
-## Prerequisite
+## Prerequisite (Py3.6 & Tf2)
 The code are run successfully using Python 3.6 and Tensorflow 2.2.0.
 
 We recommend using conda to install the tensorflow-gpu environment
@@ -28,6 +28,17 @@ then start jupyter process for some experiments
 jupyter notebook
 ```
 
+
+## File structure
+MNIST - experiments for MNIST dataset.
+Fashion - experiments for Fashion dataset.
+SVHN - experimnets for SVHN dataset.
+Cifar - experimnets for CIFAR-10 dataset.
+
+
+
+## Coming soon
+More details would be included soon. 
 
 
 
