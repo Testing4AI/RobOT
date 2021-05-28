@@ -1,6 +1,5 @@
 # RobOT: Robustness-Oriented Testing for DL models
-See the ICSE2021 paper for more details. 
-
+See the <a href="https://arxiv.org/pdf/2102.05913.pdf" target="_blank">ICSE2021 paper</a>  for more details. 
 
 ## Prerequisite (Py3.6 & Tf2)
 The code are run successfully using Python 3.6 and Tensorflow 2.2.0.
