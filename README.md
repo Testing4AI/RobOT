@@ -30,8 +30,6 @@ jupyter notebook
 
 ## File structure
 - MNIST - experiments for MNIST dataset.
-- Fashion - experiments for Fashion dataset.
-- SVHN - experimnets for SVHN dataset.
 - Cifar - experimnets for CIFAR-10 dataset.
 
 
