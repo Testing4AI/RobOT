@@ -30,6 +30,7 @@ jupyter notebook
 - MNIST - experiments for MNIST dataset.
 - Cifar - experimnets for CIFAR-10 dataset.
 
+metrics.py contains proposed metrics FOL. 
 
 train_model.py is to train the DNN model.
 
