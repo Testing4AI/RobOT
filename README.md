@@ -26,7 +26,7 @@ then start jupyter notebook for experiments
 jupyter notebook
 ```
 
-## File structure
+## Files
 - MNIST - experiments for MNIST dataset.
 - Cifar - experimnets for CIFAR-10 dataset.
 
