@@ -21,15 +21,16 @@ pip install ipykernel
 python -m ipykernel install --name tf2-gpu
 ```
 
-then start jupyter process for some experiments
+then start jupyter notebook for experiments
 ```
 jupyter notebook
 ```
 
-
 ## File structure
 - MNIST - experiments for MNIST dataset.
 - Cifar - experimnets for CIFAR-10 dataset.
+
+metircs.py contains several metrcis for test case selection, including DeepGini(ISSTA'20). 
 
 
 ## Coming soon
