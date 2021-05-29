@@ -3,7 +3,7 @@ import tensorflow as tf
 import numpy as np
 
 
-## Metrics for quality evaluation for massive tese cases. 
+## Metrics for quality evaluation for massive test cases. 
 
 
 def gini(model, x):
