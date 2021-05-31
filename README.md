@@ -1,4 +1,4 @@
-# RobOT: Robustness-Oriented Testing for DL models
+# RobOT: Robustness-Oriented Testing for Deep Learning Systems published at ICSE 2021
 See the <a href="https://arxiv.org/pdf/2102.05913.pdf" target="_blank">ICSE2021 paper</a>  for more details. 
 
 ## Prerequisite (Py3.6 & Tf2)
