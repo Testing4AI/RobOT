@@ -1,7 +1,7 @@
 from tensorflow import keras
 import tensorflow as tf
 import numpy as np
-
+from models import Lenet1, Lenet5
 
 gpus = tf.config.experimental.list_physical_devices('GPU')
 if gpus:
@@ -11,24 +11,6 @@ if gpus:
     except RuntimeError as e:
         print(e)
         
-
-def Lenet5():
-    input_tensor = keras.layers.Input(shape=(28, 28, 1))
-    
-    x = keras.layers.Convolution2D(6, (5, 5), activation='relu', padding='same', name='block1_conv1')(input_tensor)
-    x = keras.layers.MaxPooling2D(pool_size=(2, 2), name='block1_pool1')(x)
-
-    x = keras.layers.Convolution2D(16, (5, 5), activation='relu', padding='same', name='block2_conv1')(x)
-    x = keras.layers.MaxPooling2D(pool_size=(2, 2), name='block2_pool1')(x)
-    
-    x = keras.layers.Flatten(name='flatten')(x)
-    x = keras.layers.Dense(120, activation='relu', name='fc1')(x)
-    x = keras.layers.Dense(84, activation='relu', name='fc2')(x)
-    x = keras.layers.Dense(10, name='before_softmax')(x)
-    x = keras.layers.Activation('softmax', name='redictions')(x)
-    
-    return keras.models.Model(input_tensor, x)
-
 
 def load_mnist(path="./mnist.npz"):
     f = np.load(path)
