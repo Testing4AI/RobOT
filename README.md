@@ -41,7 +41,7 @@ train_model.py is to train the DNN model.
 
 attack.py contains FGSM and PGD attack. 
 
-gen_adv.py is to generate adversarial inputs for test selection and robustness evaluation. You could also use toolbox like <a href="https://github.com/cleverhans-lab/cleverhans" target="_blank">cleverhans</a> for test case generation. 
+gen_adv.py is to generate adversarial inputs for test selection and robustness evaluation. You could also use toolbox like <a href="https://github.com/cleverhans-lab/cleverhans" target="_blank">cleverhans</a> for the test case generation. 
 
 select_retrain.py is to select valuable test cases for model retraining. 
 
