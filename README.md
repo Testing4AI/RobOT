@@ -27,8 +27,11 @@ jupyter notebook
 ```
 
 ## Files
-- MNIST - experiments for MNIST dataset.
-- Cifar - experimnets for CIFAR-10 dataset.
+- MNIST - robustness experiments on MNIST dataset.
+- FASHION - robustness experimnets on CIFAR-10 dataset.
+- SVHN - robustness experiments on MNIST dataset.
+- CIFAR-10 - robustness experimnets on CIFAR-10 dataset.
+- _Fairness - fairness experimnets on tabular datasets. 
 
 metrics.py contains proposed metrics FOL. 
 
@@ -38,7 +41,7 @@ attack.py contains FGSM and PGD attack.
 
 gen_adv.py is to generate adversarial inputs for test selection and robustness evaluation. You could also use toolbox like <a href="https://github.com/cleverhans-lab/cleverhans" target="_blank">cleverhans</a> for test case generation. 
 
-select_retrain.py is to select high-quality test cases for model retraining. 
+select_retrain.py is to select valuable test cases for model retraining. 
 
 For testing method (DeepXplore, DLFuzz, ADAPT), we use the code repository <a href="https://github.com/kupl/ADAPT" target="_blank">ADAPT</a>. 
 
