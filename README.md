@@ -43,7 +43,9 @@ gen_adv.py is to generate adversarial inputs for test selection and robustness e
 
 select_retrain.py is to select valuable test cases for model retraining. 
 
+
 For testing methods (DeepXplore, DLFuzz, ADAPT), we use the code repository <a href="https://github.com/kupl/ADAPT" target="_blank">ADAPT</a>. 
+
 For testing methods (AEQUITAS, ADF), we use the code repository <a href="https://github.com/pxzhang94/ADF" target="_blank">ADF</a>. 
 
 ## Coming soon
