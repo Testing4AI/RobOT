@@ -33,6 +33,8 @@ jupyter notebook
 - CIFAR-10 - robustness experimnets on CIFAR-10 dataset.
 - _Fairness - fairness experimnets on tabular datasets. 
 
+
+## Functions
 metrics.py contains proposed metrics FOL. 
 
 train_model.py is to train the DNN model.
