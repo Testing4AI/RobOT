@@ -3,8 +3,6 @@ import tensorflow as tf
 import numpy as np
 
 
-## Metrics for quality evaluation for massive test cases. 
-
 
 def gini(model, x):
     """
@@ -72,4 +70,5 @@ def robustness(model, x, y):
     y: ground truth labels, shape of y: [batch_size] 
     """
     return np.sum(np.argmax(model(x), axis=1) == y) / y.shape[0]
+
 
