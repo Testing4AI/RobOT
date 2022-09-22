@@ -31,7 +31,7 @@ jupyter notebook
 - FASHION - robustness experimnets on CIFAR-10 dataset.
 - SVHN - robustness experiments on MNIST dataset.
 - CIFAR-10 - robustness experimnets on CIFAR-10 dataset.
-- _Fairness - fairness experimnets on tabular datasets. 
+- _Fairness - fairness experimnets
 
 
 ## Functions
