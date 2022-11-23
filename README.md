@@ -27,11 +27,11 @@ jupyter notebook
 ```
 
 ## Files
-- MNIST - robustness experiments on MNIST dataset.
-- FASHION - robustness experimnets on CIFAR-10 dataset.
-- SVHN - robustness experiments on MNIST dataset.
-- CIFAR-10 - robustness experimnets on CIFAR-10 dataset.
-- _Fairness - fairness experimnets
+- MNIST - robustness experiments on the MNIST dataset.
+- FASHION - robustness experimnets on the FASHION dataset.
+- SVHN - robustness experiments on the SVHN dataset.
+- CIFAR-10 - robustness experiments on the CIFAR-10 dataset.
+
 
 
 ## Functions
